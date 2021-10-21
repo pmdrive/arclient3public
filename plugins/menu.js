@@ -21,7 +21,7 @@ const defaultMenu = {
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
 ├ Website: *www.bot.rave.my.id*
-├ Instagram: *www.instagram.com/akbarr.id*
+├ Instagram: *instagram.com/akbarr.id*
 └────
 %readmore`.trimStart(),
   header: '┌─〔 %category 〕',
