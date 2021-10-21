@@ -22,7 +22,7 @@ Terdapat *${json.jawaban.length}* jawaban${json.jawaban.find(v => v.includes(' '
         id,
         msg: await this.sendButton(m.chat, caption, '© akbarbotz', 'Nyerah', 'nyerah', m),
         ...json,
-        terjawab: Array.from(json.jawaban, () => true),
+        terjawab: Array.from(json.jawaban, () => false),
         winScore,
     }
 }
