@@ -8,8 +8,8 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   let vid = results.all.find(video => video.seconds < 3600)
   if (!vid) throw 'Konten Tidak ditemukan'
   let isVideo = /2$/.test(command)
-  let yt = true
-  let yt2 = true
+  let yt = false
+  let yt2 = false
   let usedServer = servers[0]
   for (let i in servers) {
     let server = servers[i]
@@ -40,3 +40,4 @@ handler.exp = 0
 
 module.exports = handler
 
+})
